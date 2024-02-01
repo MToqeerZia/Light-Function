@@ -1,0 +1,33 @@
+*{
+    margin: 0PX;
+    padding: 0px;
+    font-weight: 900;
+    font-family: fantasy;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    
+}
+body img,button{
+    display: block;
+    margin: 0 auto;  
+}
+img{
+    height: 612px;
+    width: 612px;
+}
+ body button{
+    background-color: yellow;
+    color: black;
+    padding: 20px 20px;
+    
+} 
+@media (max-width:600px) {
+img{
+height: 306px;
+width: 306px;
+}
+    
+}
